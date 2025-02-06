@@ -7,7 +7,7 @@ runs:
       uses: astral-sh/setup-uv@v3
       with:
         version: "0.5.4"
-    - name: install nox
-      uses: wntrblm/nox@main
-      with:
-        version: "2024.10.9"
+    # - name: install nox
+    #   uses: wntrblm/nox@main
+    #   with:
+    #     version: "2024.10.9"
