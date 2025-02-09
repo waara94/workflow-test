@@ -22,3 +22,9 @@ lint.ignore = []
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[tool.pyright]
+exclude = [".venv"]
+pythonVersion = "3.12"
+venvPath = "."
+venv = ".venv"
