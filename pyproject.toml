@@ -18,7 +18,18 @@ dev = [
 ]
 
 [tool.ruff]
+line-length = 88
 lint.ignore = []
+
+[tool.ruff.format]
+docstring-code-format = true
+quote-style = "single"
+line-ending = "lf"
+
+[tool.ruff.lint.isort]
+case-sensitive = true
+combine-as-imports = true
+known-first-party = ["workflow-test"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

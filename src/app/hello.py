@@ -26,12 +26,12 @@ def gen_set() -> set[int]:
 
 
 def main():
-    print("Hello from hello.py")
+    print('Hello from hello.py')
 
 
 def add_numbers(a, b):
     sum = a + b
-    print("Sum is:", sum)
+    print('Sum is:', sum)
 
     return sum
 
@@ -47,12 +47,12 @@ class calculator:
         return self.number * self.number * self.number
 
     def display(self):
-        print("Number:", self.number, "Square:", self.square(), "Cube:", self.cube())
+        print('Number:', self.number, 'Square:', self.square(), 'Cube:', self.cube())
 
 
 calc = calculator(5)
 calc.display()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
