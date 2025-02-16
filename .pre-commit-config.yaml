@@ -1,8 +1,4 @@
 repos:
-  - repo: https://github.com/psf/black
-    rev: 24.2.0
-    hooks:
-      - id: black
   - repo: https://github.com/astral-sh/uv-pre-commit
     rev: 0.5.4
     hooks:
@@ -26,3 +22,8 @@ repos:
         language: python
         pass_filenames: false
         always_run: true
+  
+  # - repo: https://github.com/psf/black
+  #   rev: 24.2.0
+  #   hooks:
+  #     - id: black
