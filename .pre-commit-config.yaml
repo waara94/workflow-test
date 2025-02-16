@@ -9,6 +9,7 @@ repos:
       - id: ruff
         args: [ --fix, --show-fixes, --exit-non-zero-on-fix ]
       - id: ruff-format
+        args: [ --verbose ]
         stages: [ pre-commit ]
   - repo: https://github.com/RobertCraigie/pyright-python
     rev: v1.1.393
